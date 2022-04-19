@@ -2,11 +2,11 @@ import psycopg2
 
 # Connecting to RDS
 connection = psycopg2.connect(
-    host = 'databaseinstance.c4wprsjltmlb.us-east-1.rds.amazonaws.com',
-    port = 5432,
-    user = 'postgres',
-    password = 'postgres',
-    database='databasename'
+    host = '',
+    port = ,
+    user = '',
+    password = '',
+    database=''
     )
 
 # Creating a SQL table
